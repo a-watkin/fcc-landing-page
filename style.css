@@ -1,3 +1,47 @@
 h1 {
     color: green;
 }
+
+#header {
+	margin-bottom: 2em;
+}
+
+#video {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+@media (max-width: 650px) {
+	#sub-heading {
+		margin-top: 2.5em;
+		color: green;
+	}
+	 
+}
+
+@media (max-width: 600px) {
+	#sub-heading {
+		margin-top: 3em;
+		color: green;
+	}
+	 
+}
+
+@media (max-width: 6500px) {
+	#nav-bar {
+		padding: 0.5em;
+	}
+	 
+}
+
+h3, h4, h5, h6 {
+    margin-top: 1em;
+}
+
+/* corrects the page position for links in the navbar */
+.internal-link {
+    display: block;
+    position: relative;
+    top: -6em;
+    visibility: hidden;
+}
